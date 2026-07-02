@@ -1,0 +1,29 @@
+name: WantedPlugin
+version: '2.0.0'
+main: dev.wanted.WantedPlugin
+api-version: '1.21'
+description: Hệ thống truy nã hoàn chỉnh — The Last Broadcast
+author: Server
+depend: [Vault]
+softdepend: [PlaceholderAPI, AmbientHorror]
+
+commands:
+  wanted:
+    description: Hệ thống truy nã
+    aliases: [truyna, bounty, w]
+    usage: /wanted <list|top|info|set|clear|bounty|season|reload>
+    permission: wanted.use
+
+permissions:
+  wanted.use:
+    description: Dùng lệnh /wanted cơ bản
+    default: true
+  wanted.admin:
+    description: Quyền admin truy nã
+    default: op
+  wanted.bypass:
+    description: Không bị tính vào hệ thống truy nã
+    default: false
+  wanted.bounty.place:
+    description: Đặt tiền thưởng cho người khác
+    default: true
