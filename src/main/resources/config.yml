@@ -1,0 +1,70 @@
+scoring:
+  pvp-kill: 20
+  mob-kill: 1
+  money-per-1000: 2
+
+wanted-levels:
+  1:
+    score: 30
+    reward: 80.0
+    title: "§c[TRUY NÃ ★]"
+    color: "§c"
+    glow: false
+  2:
+    score: 80
+    reward: 200.0
+    title: "§c[TRUY NÃ ★★]"
+    color: "§c"
+    glow: false
+  3:
+    score: 150
+    reward: 450.0
+    title: "§6[NGUY HIỂM ★★★]"
+    color: "§6"
+    glow: false
+  4:
+    score: 300
+    reward: 900.0
+    title: "§4[RẤT NGUY HIỂM ★★★★]"
+    color: "§4"
+    glow: true
+  5:
+    score: 500
+    reward: 2000.0
+    title: "§4§l[TỘI PHẠM SỐ 1 ★★★★★]"
+    color: "§4"
+    glow: true
+
+messages:
+  prefix: "§8[§cTRUY NÃ§8] §r"
+  player-wanted: "§c%player% §fvừa bị truy nã §cCẤP %level%§f! Tiền thưởng: §a%reward% Pin"
+  player-level-up: "§c%player% §flên cấp §cCẤP %level%§f! Tiền thưởng tăng: §a%reward% Pin"
+  player-killed: "§a%killer% §ftiêu diệt §c%target% §f— nhận §a%reward% Pin §ftiền thưởng!"
+  no-longer-wanted: "§a%player% §fkhông còn bị truy nã."
+  bounty-placed: "§e%placer% §fđặt thưởng §a%amount% Pin §fcho đầu của §c%target%§f!"
+
+settings:
+  score-reduce-on-death: 25
+  broadcast-on-wanted: true
+  kill-particles: true
+  money-update-interval: 300
+  save-interval: 600
+  actionbar-interval-ticks: 40
+  compass-radar: true
+  compass-radar-min-level: 3
+  glow-effect: true
+  ambient-integration: true
+  ambient-presence-bonus-per-level: 8.0
+
+bounty:
+  enabled: true
+  min-amount: 50.0
+  max-amount: 5000.0
+  tax-percent: 10
+
+season:
+  enabled: true
+  current-season: 1
+  top1-reward: 10000.0
+  top2-reward: 5000.0
+  top3-reward: 2000.0
