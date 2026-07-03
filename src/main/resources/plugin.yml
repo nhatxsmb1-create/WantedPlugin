@@ -4,7 +4,7 @@ main: dev.wanted.WantedPlugin
 api-version: '1.21'
 description: Hệ thống truy nã hoàn chỉnh — The Last Broadcast
 author: Server
-depend: [Vault]
+depend: [Vault, PinEconomy]
 softdepend: [PlaceholderAPI, AmbientHorror]
 
 commands:
