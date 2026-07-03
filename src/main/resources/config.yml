@@ -7,41 +7,41 @@ wanted-levels:
   1:
     score: 30
     reward: 80.0
-    title: "§c[TRUY NÃ ★]"
-    color: "§c"
+    title: "§7[OBSERVED]"
+    color: "§7"
     glow: false
   2:
     score: 80
     reward: 200.0
-    title: "§c[TRUY NÃ ★★]"
-    color: "§c"
+    title: "§e[TRACKED]"
+    color: "§e"
     glow: false
   3:
     score: 150
     reward: 450.0
-    title: "§6[NGUY HIỂM ★★★]"
+    title: "§6[MARKED]"
     color: "§6"
     glow: false
   4:
     score: 300
     reward: 900.0
-    title: "§4[RẤT NGUY HIỂM ★★★★]"
-    color: "§4"
+    title: "§c[HUNTED]"
+    color: "§c"
     glow: true
   5:
     score: 500
     reward: 2000.0
-    title: "§4§l[TỘI PHẠM SỐ 1 ★★★★★]"
+    title: "§4§l[BROADCAST TARGET]"
     color: "§4"
     glow: true
 
 messages:
-  prefix: "§8[§cTRUY NÃ§8] §r"
-  player-wanted: "§c%player% §fvừa bị truy nã §cCẤP %level%§f! Tiền thưởng: §a%reward% Pin"
-  player-level-up: "§c%player% §flên cấp §cCẤP %level%§f! Tiền thưởng tăng: §a%reward% Pin"
-  player-killed: "§a%killer% §ftiêu diệt §c%target% §f— nhận §a%reward% Pin §ftiền thưởng!"
-  no-longer-wanted: "§a%player% §fkhông còn bị truy nã."
-  bounty-placed: "§e%placer% §fđặt thưởng §a%amount% Pin §fcho đầu của §c%target%§f!"
+  prefix: "§8[§4THREAT§8] §r"
+  player-wanted: "§7%player% §fđã bị gắn nhãn §7OBSERVED§f. Tiền thưởng: §a%reward% Pin"
+  player-level-up: "§c%player% §f— Threat Level tăng lên §c%level%§f. Tiền thưởng: §a%reward% Pin"
+  player-killed: "§a%killer% §fvô hiệu hóa §c%target% §f— nhận §a%reward% Pin"
+  no-longer-wanted: "§7%player% §fkhông còn bị theo dõi."
+  bounty-placed: "§e%placer% §fgắn tiền thưởng §a%amount% Pin §fvào hồ sơ §c%target%"
 
 settings:
   score-reduce-on-death: 25
